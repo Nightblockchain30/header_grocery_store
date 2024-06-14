@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 * {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -104,10 +105,31 @@
   justify-items: center;
   justify-content: center;
 }
+.main__container .hero .hero__search-input {
+  display: flex;
+  align-items: stretch;
+  min-width: 500px;
+}
+.main__container .hero .hero__search-input-left {
+  background-color: #F3F3F4;
+  border: 0;
+  padding: 28px 0px 28px 32px;
+  min-width: 52%;
+  border-radius: 10px 0px 0px 10px;
+}
+.main__container .hero .hero__search-input-right {
+  background-color: #F38160;
+  border: 0;
+  min-width: 10%;
+  border-radius: 0px 10px 10px 0px;
+}
+.main__container .hero .hero__search-input-right:hover {
+  cursor: pointer;
+}
 .main__container .hero__list ul {
+  margin-top: 40px;
   list-style-image: url("../img/icon__check.svg");
   display: grid;
-  gap: 16px;
   grid-template-columns: 1fr 1fr;
 }
 .main__container .hero__list ul li {
