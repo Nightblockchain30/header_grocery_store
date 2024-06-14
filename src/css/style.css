@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -52,7 +51,7 @@
   color: #FAFAFA;
   background-color: #F38160;
   padding: 16.5px 40.5px;
-  border-radius: 20%;
+  border-radius: 10px;
   text-decoration: none;
 }
 
@@ -83,19 +82,35 @@
 .main__container .hero__search-grid {
   background-color: #F38160;
   display: grid;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 85% 15%;
   align-items: center;
   margin-bottom: 40px;
   max-width: 500px;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 .main__container .hero__search-grid-left {
   background-color: #F3F3F4;
-  padding: 17px 311px 17px 32px;
+  padding: 17px 0px 17px 32px;
   color: #949494;
   min-height: 70px;
-  text-align: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px 0px 0px 10px;
 }
 .main__container .hero__search-grid-right {
   background-color: #F38160;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.main__container .hero__list ul {
+  list-style-image: url("../img/icon__check.svg");
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+}
+.main__container .hero__list ul li {
+  font-size: 18px;
+  color: #949494;
 }/*# sourceMappingURL=style.css.map */
