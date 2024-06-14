@@ -51,6 +51,32 @@
 .header__container .header__aside .header__aside__a-up {
   color: #FAFAFA;
   background-color: #F38160;
-  padding: 16.5px 30.5px;
-  border-radius: 15%;
+  padding: 16.5px 40.5px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+
+.main__container {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 78px;
+}
+.main__container .hero {
+  max-width: 50%;
+}
+.main__container .hero__top h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #403C39;
+  margin-bottom: 16px;
+}
+.main__container .hero__top h1 .orange {
+  color: #F38160;
+}
+.main__container .hero__top p {
+  font-size: 24px;
+  color: #949494;
+  line-height: 40px;
+  margin-bottom: 48px;
+  max-width: 530px;
 }/*# sourceMappingURL=style.css.map */
