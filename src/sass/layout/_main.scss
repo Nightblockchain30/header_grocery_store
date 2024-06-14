@@ -15,11 +15,30 @@
                 }
             }
             p{
-                font-size: 24px;
+                font-size: 26px;
                 color: $grey;
                 line-height: 40px;
                 margin-bottom: 48px;
-                max-width: 530px;
+                max-width: 600px;
+            }
+        }
+        &__search-grid{
+            background-color: $orange;
+            display: grid;
+            grid-template-columns: 90% 10%;
+            align-items: center;
+            margin-bottom: 40px;
+            max-width: 500px;
+            border-radius: 5%;
+            &-left{
+                background-color:#F3F3F4;
+                padding: 17px 311px 17px 32px;
+                color: $grey;
+                min-height: 70px;
+                text-align:center;
+            }
+            &-right{
+                background-color: $orange;
             }
         }
     }

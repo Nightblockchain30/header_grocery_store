@@ -74,9 +74,28 @@
   color: #F38160;
 }
 .main__container .hero__top p {
-  font-size: 24px;
+  font-size: 26px;
   color: #949494;
   line-height: 40px;
   margin-bottom: 48px;
-  max-width: 530px;
+  max-width: 600px;
+}
+.main__container .hero__search-grid {
+  background-color: #F38160;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  align-items: center;
+  margin-bottom: 40px;
+  max-width: 500px;
+  border-radius: 5%;
+}
+.main__container .hero__search-grid-left {
+  background-color: #F3F3F4;
+  padding: 17px 311px 17px 32px;
+  color: #949494;
+  min-height: 70px;
+  text-align: center;
+}
+.main__container .hero__search-grid-right {
+  background-color: #F38160;
 }/*# sourceMappingURL=style.css.map */
