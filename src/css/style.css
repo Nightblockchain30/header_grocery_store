@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header__container {
+  margin-top: 33px;
+  margin-left: 160px;
+  margin-right: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container .header__nav ul {
+  display: flex;
+  list-style: none;
+  gap: 56px;
+  font-size: 18px;
+}
+.header__container .header__nav ul li a {
+  text-decoration: none;
+  color: #949494;
+}
+.header__container .header__aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.header__container .header__aside-shop-bag {
+  position: relative;
+}
+.header__container .header__aside-shop-bag-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #F38160;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.header__container .header__aside-shop-bag-img {
+  margin-right: 10px;
+}
+.header__container .header__aside .header__aside__a-in {
+  color: #F38160;
+}
+.header__container .header__aside .header__aside__a-up {
+  color: #FAFAFA;
+  background-color: #F38160;
+  padding: 16.5px 30.5px;
+  border-radius: 15%;
+}/*# sourceMappingURL=style.css.map */
