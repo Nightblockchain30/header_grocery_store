@@ -36,15 +36,21 @@
                 background-color: #F3F3F4;
                 border: 0;
                 padding: 28px 0px 28px 32px;
-                min-width: 52%;
+                min-width: 54%;
                 border-radius: 10px 0px 0px 10px;
+
+                &::placeholder {
+                    color: $grey;
+                    font-weight: 300;
+                    font-size: 18px;
+                }
 
             }
 
             &-right {
                 background-color: $orange;
                 border: 0;
-                min-width: 10%;
+                min-width: 8%;
                 border-radius: 0px 10px 10px 0px;
 
                 &:hover {

@@ -104,13 +104,18 @@
   background-color: #F3F3F4;
   border: 0;
   padding: 28px 0px 28px 32px;
-  min-width: 52%;
+  min-width: 54%;
   border-radius: 10px 0px 0px 10px;
+}
+.main__container .hero .hero__search-input-left::placeholder {
+  color: #949494;
+  font-weight: 300;
+  font-size: 18px;
 }
 .main__container .hero .hero__search-input-right {
   background-color: #F38160;
   border: 0;
-  min-width: 10%;
+  min-width: 8%;
   border-radius: 0px 10px 10px 0px;
 }
 .main__container .hero .hero__search-input-right:hover {
