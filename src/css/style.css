@@ -6,6 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+.footer__container {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 16px;
+}
+
 .header__container {
   margin-top: 33px;
   margin-left: 160px;
@@ -75,6 +81,7 @@
   margin-left: 160px;
   margin-right: 160px;
   margin-top: 78px;
+  padding-bottom: 50px;
 }
 .main__container .hero {
   max-width: 50%;
