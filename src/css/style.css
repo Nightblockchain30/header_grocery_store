@@ -99,6 +99,7 @@
   display: flex;
   align-items: stretch;
   min-width: 500px;
+  margin-bottom: 40px;
 }
 .main__container .hero .hero__search-input-left {
   background-color: #F3F3F4;
@@ -121,13 +122,29 @@
 .main__container .hero .hero__search-input-right:hover {
   cursor: pointer;
 }
-.main__container .hero__list ul {
-  margin-top: 40px;
-  list-style-image: url("../img/icon__check.svg");
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.main__container .hero__list {
+  width: 50%;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 16px;
 }
-.main__container .hero__list ul li {
-  font-size: 18px;
+.main__container .hero__list li {
   color: #949494;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  padding-left: 30px;
+}
+.main__container .hero__list li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  background-image: url("../img/icon__check.svg");
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
