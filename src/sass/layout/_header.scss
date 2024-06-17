@@ -15,51 +15,70 @@
 
             li {
                 a {
-                    // text-decoration: none;
-                    color: $grey;
+                    text-decoration: none;
+                    color: grey;
                     position: relative;
 
+                    &.active,
                     &:hover {
-                        color: black;
+                        color: $orange;
+                        position: relative;
+
+                        &::before {
+                            position: absolute;
+                            top: 25px;
+                            left: 10%;
+                            content: "";
+                            width: 80%;
+                            height: 3px;
+                            background-color: $orange;
+                            color: $orange;
+                        }
                     }
                 }
-            }
-        }
 
-        .header__aside {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 40px;
 
-            &-shop-bag {
-                position: relative;
 
-                &-circle {
-                    width: 10px;
-                    height: 10px;
-                    background-color: $orange;
-                    border-radius: 50%;
-                    position: absolute;
-                    top: 0;
-                    right: 0px;
-                }
 
-                &-img {
-                    margin-right: 10px;
-                }
-            }
-
-            .header__aside__a-in {
-                color: $orange;
-            }
-
-            .header__aside__a-up {
-                color: #FAFAFA;
-                background-color: #F38160;
-                padding: 16.5px 40.5px;
-                border-radius: 10px;
-                text-decoration: none;
             }
         }
     }
+
+    .header__aside {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+
+        &-shop-bag {
+            position: relative;
+
+            &-circle {
+                width: 10px;
+                height: 10px;
+                background-color: $orange;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                right: 0px;
+            }
+
+            &-img {
+                margin-right: 10px;
+            }
+        }
+
+        .header__aside__a-in {
+            color: $orange;
+        }
+
+        .header__aside__a-up {
+            color: #FAFAFA;
+            background-color: #F38160;
+            padding: 16.5px 40.5px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    }
+
+}
