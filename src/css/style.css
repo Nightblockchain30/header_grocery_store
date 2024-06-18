@@ -20,6 +20,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.header__container .header__nav {
+  padding-left: 130px;
+}
 .header__container .header__nav ul {
   display: flex;
   list-style: none;
@@ -80,8 +83,12 @@
 .main__container {
   margin-left: 160px;
   margin-right: 160px;
-  margin-top: 78px;
+  margin-top: 8px;
   padding-bottom: 50px;
+  background-image: url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-position: 420px -70px;
+  background-size: 1100px;
 }
 .main__container .hero {
   max-width: 50%;
@@ -91,6 +98,7 @@
   font-weight: 700;
   color: #403C39;
   margin-bottom: 16px;
+  padding-top: 111px;
 }
 .main__container .hero__top h1 .orange {
   color: #F38160;

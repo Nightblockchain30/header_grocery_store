@@ -1,11 +1,12 @@
 .main__container {
     margin-left: 160px;
     margin-right: 160px;
-    margin-top: 78px;
+    margin-top: 8px;
     padding-bottom: 50px;
-
-
-
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: 420px -70px;
+    background-size: 1100px;
 
     .hero {
         max-width: 50%;
@@ -16,6 +17,7 @@
                 font-weight: 700;
                 color: $black;
                 margin-bottom: 16px;
+                padding-top: 111px;
 
                 .orange {
                     color: $orange;
@@ -97,7 +99,5 @@
         }
 
     }
-
-
 
 }
