@@ -55,6 +55,11 @@
         &-shop-bag {
             position: relative;
 
+            &:hover {
+                cursor: pointer;
+
+            }
+
             &-circle {
                 width: 10px;
                 height: 10px;
@@ -67,11 +72,19 @@
 
             &-img {
                 margin-right: 10px;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
 
         .header__aside__a-in {
             color: $orange;
+
+            &:active {
+                color: $black;
+            }
         }
 
         .header__aside__a-up {
@@ -80,6 +93,14 @@
             padding: 16.5px 40.5px;
             border-radius: 10px;
             text-decoration: none;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            &:active {
+                background-color: $black;
+            }
         }
     }
 

@@ -26,6 +26,10 @@
   font-size: 18px;
   color: #949494;
 }
+.footer__container .footer__article:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 
 .header__container {
   margin-top: 33px;
@@ -72,6 +76,9 @@
 .header__container .header__aside-shop-bag {
   position: relative;
 }
+.header__container .header__aside-shop-bag:hover {
+  cursor: pointer;
+}
 .header__container .header__aside-shop-bag-circle {
   width: 10px;
   height: 10px;
@@ -84,8 +91,14 @@
 .header__container .header__aside-shop-bag-img {
   margin-right: 10px;
 }
+.header__container .header__aside-shop-bag-img:hover {
+  transform: scale(1.1);
+}
 .header__container .header__aside .header__aside__a-in {
   color: #F38160;
+}
+.header__container .header__aside .header__aside__a-in:active {
+  color: #403C39;
 }
 .header__container .header__aside .header__aside__a-up {
   color: #FAFAFA;
@@ -93,6 +106,12 @@
   padding: 16.5px 40.5px;
   border-radius: 10px;
   text-decoration: none;
+}
+.header__container .header__aside .header__aside__a-up:hover {
+  transform: scale(1.1);
+}
+.header__container .header__aside .header__aside__a-up:active {
+  background-color: #403C39;
 }
 
 .main__container {
@@ -148,6 +167,9 @@
   border: 0;
   min-width: 8%;
   border-radius: 0px 10px 10px 0px;
+}
+.main__container .hero .hero__search-input-right-img:hover {
+  transform: scale(1.3);
 }
 .main__container .hero .hero__search-input-right:hover {
   cursor: pointer;
